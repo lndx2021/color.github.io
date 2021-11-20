@@ -27,7 +27,22 @@
     </style>
     <div id="bodyDiv">
     
+<<<<<<< HEAD
         <p style="text-align:center; background-color: silver;" id="imgBg"><br><img src="static/picture/pass2.png"width="330px" height="225px" alt=""><br><font style="font-size:72px"><span id='theDate'></span></font></p>
+=======
+        <p style="text-align:center; background-color: silver;" id="imgBg"><br><img src="static/picture/pass2.png"width="330px" height="225px" alt=""><br><font style="font-size:100px"></font>
+            <div id="time" style="text-align:center; background-color: silver;">
+           <script type="text/javascript">
+               var t = new Date();
+               var hour = t.getHours();
+               var minute = t.getMinutes();
+               var second = t.getSeconds();
+               var nowTime =hour + ((minute < 10) ? ":0" : ":") + minute + ((second < 10) ? ":0" : ":") + second;
+               document.write(nowTime);
+               document.getElementById("time").style.fontSize="100px";
+           </script></div></p>
+
+>>>>>>> ce508c7382cb3352dd55a556a45f36ce65abb8d7
         <div class="weui-cells__title">学生返校通行证</div>
         <div class="weui-cells">
             <div class="weui-cell  weui-cell_example">
@@ -121,6 +136,7 @@
     <body>
        <div id="footer">版权所有 © 辽宁大学</div>
     </body>
+<<<<<<< HEAD
     </div>
 <script type="text/javascript" src="js/getpass.js?v=20211120213923"></script>
 <script>
@@ -152,3 +168,7 @@
 </script>
 </body>
 </html>
+=======
+    
+    </html>
+>>>>>>> ce508c7382cb3352dd55a556a45f36ce65abb8d7
