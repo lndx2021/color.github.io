@@ -26,17 +26,6 @@ window.addEventListener('popstate', function(event) {
 // setInterval(setBGC,300); 
 
 
-//2分钟结束
-function closePass(){
-	document.getElementById("bodyDiv").style.display = 'none';
-	document.title = '通行证已失效';
-	history.pushState(null, null, location.href);
-	window.addEventListener('popstate', function(event) {
-		history.pushState(null, null, location.href );
-		//此处加入回退时你要执行的代码
-		//window.location.href="about:blank";
-	});
-}
-setTimeout(closePass,120000);
+
 
 
