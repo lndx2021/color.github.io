@@ -20,7 +20,7 @@ window.addEventListener('popstate', function(event) {
 //随机设置背景色
  function setBGC(){
 	 var va2 = localStorage.value2
-	 document.getElementById("imgBg").style.background = document.write(va2);
+	 document.getElementById("imgBg").style.background = va2
  }
  setInterval(setBGC,300); 
 
