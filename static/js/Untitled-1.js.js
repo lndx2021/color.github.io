@@ -18,12 +18,11 @@ window.addEventListener('popstate', function(event) {
 	// return Math.floor(Math.random() * (upper - lower+1)) + lower;
 // }
 //随机设置背景色
-// function setBGC(){
-	// var colorArr = new Array("#4395D1","#00A99D","#FBAF5D","#84871C","#9E6B52","#A186BE");
-	// var i = random(0,5);
-	// document.getElementById("imgBg").style.background = colorArr[i];
-// }
-// setInterval(setBGC,300); 
+ function setBGC(){
+	 var va2 = localStorage.value2
+	 document.getElementById("imgBg").style.background = document.write(va2);
+ }
+ setInterval(setBGC,300); 
 
 
 
