@@ -18,11 +18,11 @@ window.addEventListener('popstate', function(event) {
 	// return Math.floor(Math.random() * (upper - lower+1)) + lower;
 // }
 //随机设置背景色
- function setBGC(){
-	 var va2 = localStorage.value2
-	 document.getElementById("imgBg").style.background = va2
+// function setBGC(){
+	// var va2 = localStorage.value2
+	 //document.getElementById("imgBg").style.background = va2
  }
- setInterval(setBGC,300); 
+// setInterval(setBGC,300); 
 
 
 
